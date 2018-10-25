@@ -10,14 +10,17 @@
     <br>
 
 ## Table of contents
-- [First Chapter](#The first chapter)
-- [Second Chapter](#The second chapter)
-- [Third Chapter](#The third chapter)
+- [First Chapter](#first-chapter)
+- [Second Chapter](#second-chapter)
+- [Third Chapter](#third-chapter)
 
 ## First Chapter
-
-
+this is the first chapter
+...
 ## Second Chapter
-
+this is the second chapter
+...
 
 ## Third Chapter
+this is the third chapter
+...
