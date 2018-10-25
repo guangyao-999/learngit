@@ -1,6 +1,19 @@
-## 1、目录结构
+<p align="center">
+  <a href="https://guangyao-999.github.io/">
+    <img src="https://getbootstrap.com/docs/4.1/assets/brand/bootstrap-solid.svg" alt="Bootstrap logo" width=72 height=72>
+  </a>
+  <h3 align="center">sgy</h3>
+  <p align="center">
+    Life is short, just study study study!!!
+    <br>
+    <a href="https://guangyao-999.github.io/"><strong>Explore My blog »</strong></a>
+    <br>
 
-### 1、shell
+## Table of contents
+- [Shell](#shell-study)
+- [Linux](#linux-study)
+
+## Shell
 shell 常用脚本
 ```
 1、通过模板自动添加linux用户脚本
@@ -14,12 +27,6 @@ auto_ssh.sh
 
 ```
 
-### 2、linux
+## Linux
 记录使用linux过程中的常见问题和基本服务的使用方式
 
-
-
-
-
-### 3、python
-python学习过程中的实用代码
