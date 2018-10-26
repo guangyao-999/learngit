@@ -24,3 +24,10 @@
 
 ### 5、Daily_Archive.sh
 按日期保存文件
+
+### 6、get_messages_log.sh
+获取指定ip，指定关键词的message日志信息
+
+```
+sh get_messages_log.sh -h 192.1.1.1 -k "init"
+```
