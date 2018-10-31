@@ -33,7 +33,7 @@ echo "------------------------------------------"
 df
 echo "-------------------------------------------"
 echo "log info:"
-cat /var/log/messages |grep "$key"
+cat /var/log/messages | grep librccvmm | grep "$key"
 EOF
 
 scp -o StrictHostKeyChecking=no $path/result.sh $remote_ip:/root

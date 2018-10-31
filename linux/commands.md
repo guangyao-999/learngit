@@ -42,6 +42,26 @@ sudo wondershaper eth0 1000 500
 # 解除限速
 sudo wondershaper clear eth0
 
+11、内存查看
+#查看服务器型号、序列号：
+
+dmidecode|grep "System Information" -A9|egrep  "Manufacturer|Product|Serial"  
+
+#Linux 查看内存的插槽数,已经使用多少插槽.每条内存多大
+
+dmidecode|grep -A5 "Memory Device"|grep Size|grep -v Range
+
+#Linux 查看内存的频率
+
+dmidecode|grep -A16 "Memory Device"|grep 'Speed' 
+
+
+
+
+
+
+
+
 
 
 
@@ -69,3 +89,20 @@ sudo  touch /var/lock/subsys/file_name
 说明：关键字K07仅需要在文件夹/etc/rc0.d/和/etc/rc6.d/内添加，在/etc/init.d/和
 /var/lock/subsys/里面不需要添加
 ```
+
+
+---
+
+#### 3、vim实用快捷键
+```
+shift  +   $^ 移到句首句尾
+ctrl   +   n  补全函数
+shift  +   <> 缩进
+ESC    +   ！ 执行命令
+ESC    +   o  回车换行
+
+```
+
+
+
+
