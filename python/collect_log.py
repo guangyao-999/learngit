@@ -1,30 +1,18 @@
 # -*- coding: utf-8 -*-
-from rccsystem.common.tool import shell_command
-from rccsystem.common.tool import  Singleton, mkdir_p
-from rccsystem.system import  ntp
-from rccsystem.net import net
-from rccsystem.common.errorno import (
-                             SUCCESS,
-                             )
 
-from logging import getLogger
-logger = getLogger()
-from rccsystem.manager.manager import Manager
-from rccsystem.remote import remote
-import threading
 from ftplib import FTP
 import tarfile
-
+import net, shell_command, mkdir_p
 PATH = "/opt/ftpshare/share/"
 PORT = 9093
 USER = "share"
 PASSWD = "share"
 
-class CollectManager(Manager):
+class CollectManager():
     __metaclass__ = Singleton
 
     def __init__(self):
-        self.host_ip = net.get_dev_addr("br0")
+        self.host_ip = None
         self.ftp = None 
         mkdir_p(PATH)
 
@@ -79,4 +67,4 @@ class CollectManager(Manager):
             
 if __name__ == "__main__":
     manager = CollectManager()
-    manager.collect_log("172.21.111.111")
+    manager.collect_log("192.168.1.1")
