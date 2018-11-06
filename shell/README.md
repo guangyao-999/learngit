@@ -31,3 +31,6 @@
 ```
 sh get_messages_log.sh -h 192.1.1.1 -k "init"
 ```
+
+### 7、collect_log.sh     
+自动备份日志，放在/etc/cron.daily/ 下面，每天即可自动运行，并且 备份文件超过5份就删除
