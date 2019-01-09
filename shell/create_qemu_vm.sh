@@ -106,7 +106,7 @@ function create_new_vm_server {
     echo -e "\t\t\tPlease input vmname"
     local uuid=$(get_uuid)
     local mac=$(get_mac)
-    local iso_file_path="/user/RG-RCC-OA_Server_V3.1_R1.27.iso"
+    local iso_file_path="/test.iso"
 
     read -p "vmname:" vmname
     check_name $vmname
@@ -174,7 +174,7 @@ function clone_vm_server() {
     echo -e "\tPlease input vmname:"
     local uuid=$(get_uuid)
     local mac=$(get_mac)
-    local iso_file_path="/user/RG-RCC-OA_Server_V3.1_R1.27.iso"
+    local iso_file_path="/test.iso"
     
     read -p "vmname:" vmname
     check_name $vmname
