@@ -10,22 +10,29 @@
     <br>
 
 ## Table of contents
-- [Shell](#shell-study)
+- [Python](#python-study)
 - [Linux](#linux-study)
 
-## Shell
-shell 常用脚本
-```
-1、通过模板自动添加linux用户脚本
-add_linux_user.sh 
 
-2、创建kvm-qemu虚拟机
-create_qemu_vm.sh
 
-3、 免密登陆脚本
-auto_ssh.sh
+## Python
+### 1、flask
+- 前端技术
+- MVT开发模式
+- mysql数据库的使用
+- html熟悉
+#### 实战项目
+- Htai (班级管理系统：mysql + redis + flask)
 
-```
+### 2、Docker
+- 镜像管理
+- 容器管理
+- dockerfile编写
+- docker-compose编写
+
+实战项目
+
+
 
 ## Linux
 记录使用linux过程中的常见问题和基本服务的使用方式
